@@ -1,0 +1,40 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Shared class */
+.raleway{
+    font-family: "Raleway", sans-serif;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+nav h3{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 800;
+}
+.header{
+    background-image: url(/assets/Hero-bg.png);
+}
+nav button{
+    background-color: #4E47FF;
+    color: white;
+    padding: 17px 36px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    font-family: "Raleway", sans-serif;
+}
