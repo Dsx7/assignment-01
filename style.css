@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Body Design */
+body {
+    background-color: #F5F8FF;
+    color: #252432;
+}
 /* Shared class */
 .raleway{
     font-family: "Raleway", sans-serif;
@@ -37,6 +42,14 @@ button{
     font-weight: bold;
     border: none;
     font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    transition: .5s;
+    border: 2px solid #4E47FF;
+}
+button:hover {
+    background: none;
+    color: #4E47FF;
+    transform: scale(1.1);
 }
 .hero {
     text-align: center;
@@ -141,4 +154,73 @@ button{
 }
 .reviewer span {
     color: #B3B3B3;
+}
+
+/* Focus Section */
+.focus_head{
+    background: white;
+    border-radius: 14px;
+    padding: 71px 150px;
+    margin-top: 137px;
+}
+.focus_head h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+}
+.focus_head p{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+.focus_head{
+    text-align: center;
+}
+.focus_head img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+/* Contact Form */
+.contact{
+    padding: 71px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.contact_left,.contact_form{
+    width: 50%;
+}
+.contact_left h2{
+    font-size: 97px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+input,textarea{
+    width: 100%;
+    display: block;
+    background: white;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+textarea{
+    height: 135px;
+}
+.contact_form button{
+    display: block;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+}
+.contact_form * {
+    box-sizing: border-box;
 }
