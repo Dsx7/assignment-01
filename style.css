@@ -29,7 +29,7 @@ nav h3{
 .header{
     background-image: url(/assets/Hero-bg.png);
 }
-nav button{
+nav button, .hero button{
     background-color: #4E47FF;
     color: white;
     padding: 17px 36px;
@@ -37,4 +37,16 @@ nav button{
     font-weight: bold;
     border: none;
     font-family: "Raleway", sans-serif;
+}
+.hero {
+    text-align: center;
+    padding: 160px 0;
+    
+}
+.hero h1 {
+    font-size: 65px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 37px;
 }
