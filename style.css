@@ -224,3 +224,33 @@ textarea{
 .contact_form * {
     box-sizing: border-box;
 }
+
+/* Footer Design */
+footer {
+    background: white;
+    padding: 100px 0;
+}
+.footer_logo {
+    text-align: center;
+}
+.footer_logo h1 {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+.footer_logo p {
+    color: #8987A1;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.footer_bottom {
+    text-align: center;
+
+}
+.footer_bottom li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 24px;
+    color: #8987A1;
+}
