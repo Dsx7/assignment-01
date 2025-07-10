@@ -73,3 +73,36 @@ button{
 .image img {
     border-radius: 48px;
 }
+.milestone {
+    background-color:rgba(77, 71, 255, 0.10) ;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+.milestone h4{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432; 
+    text-align: center;
+}
+#milestone {
+    margin-top: 116px;
+}
+/* Achivement Section */
+.achivement-items{
+    text-align: center;
+    
+}
+.achivement-items h3{
+    font-size: 80px;
+    font-size: bold;
+    color: #4E47FF;
+}
+.achivement-items p {
+    font-size: 20px;
+    color:rgb(0, 0, 0.50);
+}
+.achivement{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
