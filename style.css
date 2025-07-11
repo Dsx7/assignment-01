@@ -254,3 +254,11 @@ footer {
     margin: 0 24px;
     color: #8987A1;
 }
+
+a {
+    text-decoration: none;
+}
+.footer_bottom a {
+    text-decoration: none;
+    color: #8987A1;
+}
